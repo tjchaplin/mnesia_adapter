@@ -1,0 +1,12 @@
+{application, mnesia_adapter,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { mnesia_adapter_app, []}},
+  {env, []}
+ ]}.
