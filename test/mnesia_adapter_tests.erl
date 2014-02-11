@@ -14,4 +14,5 @@ mnesia_adapter_test_() ->
 			?_test(begin 
 						?assert(true)
 					end))
-		]),
+		])
+	].
